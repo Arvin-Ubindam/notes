@@ -18,7 +18,7 @@ h1 {
 
 textarea {
   font-family: "Anta", sans-serif;
-  color: ghostwhite;
+  color: grey;
   width: 15%;
   height: 250px;
 }
@@ -96,36 +96,59 @@ th {
   display: inline-flex;
 }
 
-#Yesterday {
-  margin-left: 150px;
+.Yesterday {
+  margin-left: 70px;
   background-color: gainsboro;
-    border-radius: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
-#Today{
-    margin-left: 110px;
-    background-color: gainsboro;
-    border-radius: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
+.Today {
+  margin-left: 260px;
+  background-color: gainsboro;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-#Blockers{
-    margin-left: 150px;
-    background-color: gainsboro;
-    border-radius: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
+.Blockers {
+  margin-left: 290px;
+  background-color: gainsboro;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-#Actions{
-    margin-left: 150px;
-    background-color: gainsboro;
-    border-radius: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
+.Actions {
+  margin-left: 300px;
+  background-color: gainsboro;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
+button {
+  width: 200px;
+  height: 28px;
+  font-family: Rubik Scribble;
+}
 
+#dialog {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+#dialog2 {
+  margin-top: 10px;
+  margin-left: 550px;
+}
+
+#dialog3 {
+  margin-top: 10px;
+  margin-left: 1040px;
+}
+
+#dialog1 {
+  margin-top: 10px;
+  margin-left: 1540px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
