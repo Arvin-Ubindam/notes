@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Scribble&display=swap");
+
+body {
+  font-family: Rubik Scribble;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: inline-flex;
+}
+
+h1 {
+  margin-right: 40%;
+}
+
+input{
+    color: blueviolet;
+}
