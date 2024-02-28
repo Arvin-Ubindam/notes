@@ -4,4 +4,46 @@
 body {
   align-items: center;
   justify-content: center;
+  font-family: "Anta", sans-serif;
 }
+
+#H1 {
+  margin-left: 410px;
+}
+
+span {
+  color: blueviolet;
+}
+
+form {
+  display: block;
+  margin-top: 100px;
+  margin-left: 750px;
+}
+
+.head {
+  display: inline-flex;
+}
+
+textarea {
+  background-color: rgb(250, 157, 0);
+  padding: 12px;
+  box-shadow: 5px 5px 3px gainsboro;
+  color: grey;
+}
+
+#hot {
+  display: block;
+  font-family: "Anta", sans-serif;
+  margin-left: 80px;
+  margin-top: 10px;
+  background-color: rgb(185, 247, 0);
+  outline: none;
+  color: white;
+}
+
+#hot:hover {
+  cursor: pointer;
+}
+
+
