@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Micro+5&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Scribble&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Chelsea+Market&family=Micro+5&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik+Scribble&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+textarea {
+  max-width: 400px;
+}
+
+textarea {
+  font-family: "Anta", sans-serif;
+  color: grey;
+  padding: 5px;
+  width: 340px;
+  height: 250px;
+}
+
+#a {
+  outline: rgb(141, 223, 242);
+  background-color: rgb(141, 223, 242);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#b {
+  outline: rgb(245, 200, 254);
+  background-color: rgb(245, 200, 254);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#c {
+  outline: rgb(255, 170, 170);
+  background-color: rgb(255, 170, 170);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#d {
+  outline: rgb(178, 226, 137);
+  background-color: rgb(178, 226, 137);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#e {
+  outline: rgb(141, 223, 242);
+  background-color: rgb(141, 223, 242);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#f {
+  outline: rgb(245, 200, 254);
+  background-color: rgb(245, 200, 254);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#g {
+  outline: rgb(255, 170, 170);
+  background-color: rgb(255, 170, 170);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+#h {
+  outline: rgb(178, 226, 137);
+  background-color: rgb(178, 226, 137);
+  box-shadow: 5px 5px 3px rgb(86, 86, 86);
+}
+
+p {
+  font-size: 3em;
+  font-family: Chelsea Market;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+}
+
+.no {
+  margin-right: 100px;
+}
+
+.Yesterday {
+  font-family: Chelsea Market;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.Today {
+  font-family: Chelsea Market;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.Blockers {
+  font-family: Chelsea Market;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.Actions {
+  font-family: Chelsea Market;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Chelsea Market;
+}
+
+#brand {
+  font-family: "Anta", sans-serif;
+}
+
+img {
+  width: 40px;
+}
+
+.begin {
+  color: blueviolet;
+}
+
+.butt {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  gap: 250px;
+  margin-right: 50px;
+}
+
+.butt2 {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  gap: 250px;
+  margin-right: 50px;
+}
+
+button {
+  margin-top: 4px;
+  outline: 3px solid rgb(255, 42, 113);
+  background-color: pink;
+  border-radius: 6px;
+  box-shadow: 10px 8px 8px palevioletred;
+}
+
+dialog {
+  margin-top: 20px;
+  margin-right: 35px;
+  border-radius: 8px;
+  box-shadow: 5px 6px 6px grey;
+}

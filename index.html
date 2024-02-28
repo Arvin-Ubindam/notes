@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="style-flexbox.css" />
   <body>
-    <div class="heading">
-      <th>
-        <h1>Yesterday</h1>
-        <h1>Today</h1>
-        <h1>Blockers</h1>
-        <h1 class="no">Actions item</h1>
-      </th>
-    </div>
     <div class="notes">
       <form>
+        <th>
+          <p class="heading">Yesterday</p>
+        </th>
         <textarea
           name="notes 1a"
           id="a"
@@ -26,6 +22,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Today</p>
+        </th>
         <textarea
           name="notes 1a"
           id="b"
@@ -35,6 +34,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Blockers</p>
+        </th>
         <textarea
           name="notes 1a"
           id="c"
@@ -44,6 +46,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Action Items</p>
+        </th>
         <textarea
           name="notes 1a"
           id="d"
@@ -53,6 +58,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Yesterday</p>
+        </th>
         <textarea
           name="notes 1a"
           id="e"
@@ -62,6 +70,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Today</p>
+        </th>
         <textarea
           name="notes 1a"
           id="f"
@@ -71,6 +82,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Blockers</p>
+        </th>
         <textarea
           name="notes 1a"
           id="g"
@@ -80,6 +94,9 @@
         ></textarea>
       </form>
       <form>
+        <th>
+          <p class="heading">Action Items</p>
+        </th>
         <textarea
           name="notes 1a"
           id="h"
@@ -89,18 +106,18 @@
         ></textarea>
       </form>
     </div>
-    <div class="add">
+    <div class="butt">
       <button class="Yesterday" id="button">ADD</button>
       <button class="Today" id="button2">ADD</button>
-      <button class="Blockers" id="button3">ADD</button>
-      <button class="Actions" id="button4">ADD</button>
+      <dialog id="dialog"><a href="form.html">Add sticky notes</a></dialog>
+      <dialog id="dialog1"><a href="form.html">Add sticky notes</a></dialog>
+      <div class="butt2">
+        <button class="Actions" id="button4">ADD</button>
+        <button class="Blockers" id="button3">ADD</button>
+        <dialog id="dialog2"><a href="form.html">Add sticky notes</a></dialog>
+        <dialog id="dialog3"><a href="form.html">Add sticky notes</a></dialog>
+      </div>
     </div>
-
-    <dialog id="dialog"><a href="form.html">Add sticky notes</a></dialog>
-    <dialog id="dialog1"><a href="form.html">Add sticky notes</a></dialog>
-    <dialog id="dialog2"><a href="form.html">Add sticky notes</a></dialog>
-    <dialog id="dialog3"><a href="form.html">Add sticky notes</a></dialog>
-
-    <script src="script.js"></script>
+    <script src="./script.js" async></script>
   </body>
 </html>

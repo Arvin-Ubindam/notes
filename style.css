@@ -30,39 +30,45 @@ form {
 #a {
   padding: 12px;
   margin-left: 20px;
-  background-color: rgb(167, 223, 242);
+  background-color: rgb(141, 223, 242);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #b {
   padding: 12px;
   margin-left: 150px;
-  background-color: rgb(217, 176, 255);
+  background-color: rgb(245, 200, 254);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #c {
   padding: 12px;
   margin-left: 190px;
   background-color: rgb(255, 170, 170);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #d {
   padding: 12px;
   margin-left: 190px;
-  background-color: aquamarine;
+  background-color: rgb(178, 226, 137);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #e {
   padding: 12px;
   margin-left: 20px;
   margin-top: 45px;
-  background-color: rgb(167, 223, 242);
+  background-color: rgb(141, 223, 242);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #f {
   padding: 12px;
   margin-left: 150px;
   margin-top: 45px;
-  background-color: rgb(217, 176, 255);
+  background-color: rgb(245, 200, 254);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #g {
@@ -70,13 +76,15 @@ form {
   margin-left: 190px;
   margin-top: 45px;
   background-color: rgb(255, 170, 170);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 #h {
   padding: 12px;
   margin-left: 190px;
   margin-top: 45px;
-  background-color: aquamarine;
+  background-color: rgb(178, 226, 137);
+  box-shadow: 5px 5px 3px gainsboro;
 }
 
 th {
@@ -97,11 +105,13 @@ th {
 }
 
 .Yesterday {
+  margin-top: 5px;
   margin-left: 70px;
   background-color: gainsboro;
 }
 
 .Today {
+  margin-top: 5px;
   margin-left: 260px;
   background-color: gainsboro;
   padding-left: 8px;
@@ -109,6 +119,7 @@ th {
 }
 
 .Blockers {
+  margin-top: 5px;
   margin-left: 290px;
   background-color: gainsboro;
   padding-left: 8px;
@@ -116,6 +127,7 @@ th {
 }
 
 .Actions {
+  margin-top: 5px;
   margin-left: 300px;
   background-color: gainsboro;
   padding-left: 8px;
@@ -129,12 +141,12 @@ button {
 }
 
 #dialog {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 90px;
 }
 
 #dialog2 {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 550px;
 }
 
@@ -144,7 +156,7 @@ button {
 }
 
 #dialog1 {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 1540px;
 }
 
@@ -152,3 +164,9 @@ a {
   text-decoration: none;
   color: black;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+
