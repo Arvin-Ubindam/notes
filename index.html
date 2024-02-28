@@ -68,7 +68,6 @@
           rows="10"
           placeholder="Type anything,@mention anyone"
         ></textarea>
-        <button class="Yesterday" id="myBtn1">TO YESTERDAY</button>
       </form>
       <form>
         <th>
@@ -81,7 +80,6 @@
           rows="10"
           placeholder="Type anything,@mention anyone"
         ></textarea>
-        <button class="Today" id="myBtn2">ADD TO TODAY</button>
       </form>
       <form>
         <th>
@@ -94,7 +92,6 @@
           rows="10"
           placeholder="Type anything,@mention anyone"
         ></textarea>
-        <button class="Blockers" id="myBtn3">ADD TO BLOCKERS</button>
       </form>
       <form>
         <th>
@@ -107,35 +104,20 @@
           rows="10"
           placeholder="Type anything,@mention anyone"
         ></textarea>
-        <button class="Actions" id="myBtn4">ADD TO ACTION ITEMS</button>
       </form>
     </div>
-    <dialog id="myDialog1">
-      <a href="form.html">Add sticky notes </a>
-    </dialog>
-    <dialog id="myDialog2">
-      <a href="form.html">Add sticky notes </a>
-    </dialog>
-    <dialog id="myDialog3">
-      <a href="form.html">Add sticky notes </a>
-    </dialog>
-    <dialog id="myDialog4">
-      <a href="form.html">Add sticky notes </a>
-    </dialog>
-
-    <script>
-      let myBtn1 = document.querySelector("#myBtn1");
-      let myDialog1 = document.querySelector("#myDialog1");
-
-      myBtn1.addEventListener("click", () => {
-        if (!myDialog1.open) {
-          myDialog1.show();
-        } else {
-          myDialog1.close();
-        }
-      });
-    </script>
-
+    <div class="butt">
+      <button class="Yesterday" id="button">ADD</button>
+      <button class="Today" id="button2">ADD</button>
+      <dialog id="dialog"><a href="form.html">Add sticky notes</a></dialog>
+      <dialog id="dialog1"><a href="form.html">Add sticky notes</a></dialog>
+      <div class="butt2">
+        <button class="Actions" id="button4">ADD</button>
+        <button class="Blockers" id="button3">ADD</button>
+        <dialog id="dialog2"><a href="form.html">Add sticky notes</a></dialog>
+        <dialog id="dialog3"><a href="form.html">Add sticky notes</a></dialog>
+      </div>
+    </div>
     <script src="./script.js" async></script>
   </body>
 </html>
