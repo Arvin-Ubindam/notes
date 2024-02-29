@@ -45,3 +45,17 @@ textarea {
 #hot:hover {
   cursor: pointer;
 }
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container > div {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 4px;
+  margin-bottom: 1em;
+  max-width: 300px;
+  padding: 1em;
+}
